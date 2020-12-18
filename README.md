@@ -2,7 +2,9 @@
 
 A project designed to take advantage of Google's Speech-to-Text API and make a Fetch Robotics Mobile Manipulator perform basic commands.
 
-A large portion of this project relies on Pedro Oliviera's speech_recog_uc ROS Package. [Click here](https://github.com/jopedroliveira/speech_recog_uc) for more information and detailed set up on the project. Basic instructions are as follows
+A large portion of this project relies on Pedro Oliviera's speech_recog_uc ROS Package. [Click here](https://github.com/jopedroliveira/speech_recog_uc) for more information and detailed set up on the project. Other pre-requisites are Gazebo and apollo_detection_systems_3dnet(available to the lab).
+
+Basic instructions are as follows:
 
 1. extract the contents of this package to your catkin_ws
 2. Create a Google Cloud Platform account and create a new Project
